@@ -43,6 +43,7 @@
         <exclude name="AvoidDuplicateLiterals" />
         <exclude name="BeanMembersShouldSerialize" />
         <exclude name="JUnitSpelling" />
+        <exclude name="DataflowAnomalyAnalysis" />
     </rule>
 
     <rule ref="category/java/multithreading.xml">
