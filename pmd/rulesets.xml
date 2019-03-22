@@ -11,6 +11,7 @@
 
 
     <rule ref="category/java/bestpractices.xml">
+        <exclude name="AbstractClassWithoutAbstractMethod" />
     </rule>
 
     <rule ref="category/java/codestyle.xml">
@@ -30,6 +31,7 @@
         <exclude name="LawOfDemeter" />
         <exclude name="LoosePackageCoupling" />
         <exclude name="UseUtilityClass" />
+        <exclude name="AbstractClassWithoutAnyMethod" />
     </rule>
 
     <rule ref="category/java/documentation.xml">
