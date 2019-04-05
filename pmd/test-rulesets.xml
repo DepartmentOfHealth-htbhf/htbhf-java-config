@@ -50,6 +50,7 @@
         <exclude name="BeanMembersShouldSerialize" />
         <exclude name="JUnitSpelling" />
         <exclude name="DataflowAnomalyAnalysis" />
+        <exclude name="UseLocaleWithCaseConversions" />
     </rule>
 
     <rule ref="category/java/multithreading.xml">
