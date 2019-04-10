@@ -46,6 +46,7 @@
 
     <rule ref="category/java/multithreading.xml">
         <exclude name="DoNotUseThreads" />
+        <exclude name="UseConcurrentHashMap" />
     </rule>
 
     <rule ref="category/java/performance.xml">
