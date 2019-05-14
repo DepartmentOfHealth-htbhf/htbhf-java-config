@@ -34,6 +34,9 @@
     </rule>
 
     <rule ref="category/java/design.xml">
+        <exclude name="AbstractClassWithoutAnyMethod" />
+        <exclude name="AvoidThrowingRawExceptionTypes" />
+        <exclude name="ExcessiveImports" />
         <exclude name="ImmutableField" />
         <exclude name="LawOfDemeter" />
         <exclude name="LoosePackageCoupling" />
@@ -41,15 +44,13 @@
         <exclude name="TooManyMethods" />
         <exclude name="UseUtilityClass" />
         <exclude name="UseObjectForClearerAPI" />
-        <exclude name="ExcessiveImports" />
-        <exclude name="AbstractClassWithoutAnyMethod" />
     </rule>
 
     <rule ref="category/java/errorprone.xml">
         <exclude name="AvoidDuplicateLiterals" />
         <exclude name="BeanMembersShouldSerialize" />
-        <exclude name="JUnitSpelling" />
         <exclude name="DataflowAnomalyAnalysis" />
+        <exclude name="JUnitSpelling" />
         <exclude name="UseLocaleWithCaseConversions" />
     </rule>
 
