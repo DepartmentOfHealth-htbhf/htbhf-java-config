@@ -35,6 +35,7 @@
 
     <rule ref="category/java/design.xml">
         <exclude name="AbstractClassWithoutAnyMethod" />
+        <exclude name="AvoidCatchingGenericException" />
         <exclude name="AvoidThrowingRawExceptionTypes" />
         <exclude name="ExcessiveImports" />
         <exclude name="ImmutableField" />
