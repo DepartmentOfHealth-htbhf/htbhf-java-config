@@ -28,10 +28,11 @@
     </rule>
 
     <rule ref="category/java/design.xml">
+        <exclude name="AbstractClassWithoutAnyMethod" />
+        <exclude name="AvoidCatchingGenericException" />
         <exclude name="LawOfDemeter" />
         <exclude name="LoosePackageCoupling" />
         <exclude name="UseUtilityClass" />
-        <exclude name="AbstractClassWithoutAnyMethod" />
     </rule>
 
     <rule ref="category/java/documentation.xml">
