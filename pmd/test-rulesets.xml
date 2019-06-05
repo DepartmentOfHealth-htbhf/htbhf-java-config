@@ -30,6 +30,7 @@
         <exclude name="MethodArgumentCouldBeFinal" />
         <exclude name="ShortVariable" />
         <exclude name="TooManyStaticImports" />
+        <exclude name="UnnecessaryFullyQualifiedName" />
         <exclude name="UselessParentheses" />
     </rule>
 
