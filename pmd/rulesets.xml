@@ -24,6 +24,7 @@
         <exclude name="OnlyOneReturn" />
         <exclude name="ShortVariable" />
         <exclude name="TooManyStaticImports" />
+        <exclude name="UnnecessaryFullyQualifiedName" />
         <exclude name="UselessParentheses" />
     </rule>
 
