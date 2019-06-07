@@ -11,11 +11,12 @@
 
 
     <rule ref="category/java/bestpractices.xml">
+        <exclude name="AbstractClassWithoutAbstractMethod" />
+        <exclude name="AvoidUsingHardCodedIP" />
         <exclude name="JUnitAssertionsShouldIncludeMessage" />
         <exclude name="JUnitTestsShouldIncludeAssert" />
         <exclude name="JUnitTestContainsTooManyAsserts" />
         <exclude name="UnusedPrivateMethod" />
-        <exclude name="AbstractClassWithoutAbstractMethod" />
     </rule>
 
     <rule ref="category/java/codestyle.xml">
