@@ -12,4 +12,8 @@
     <Match>
         <Bug code="NP,RV" />
     </Match>
+
+    <Match>
+        <Bug code="SECMD5,SECPR,SECSQLIJPA" />
+    </Match>
 </FindBugsFilter>
