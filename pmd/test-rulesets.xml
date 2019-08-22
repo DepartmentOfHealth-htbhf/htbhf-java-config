@@ -33,6 +33,7 @@
         <exclude name="TooManyStaticImports" />
         <exclude name="UnnecessaryFullyQualifiedName" />
         <exclude name="UselessParentheses" />
+        <exclude name="UseUnderscoresInNumericLiterals" />
     </rule>
 
     <rule ref="category/java/design.xml">
