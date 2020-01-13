@@ -14,6 +14,6 @@
     </Match>
 
     <Match>
-        <Bug code="SECMD5,SECPR,SECSQLIJPA" />
+        <Bug code="SECMD5,SECPR,SECSQLIJPA,SECCRLFLOG" />
     </Match>
 </FindBugsFilter>
